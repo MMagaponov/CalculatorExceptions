@@ -20,6 +20,13 @@ public class Calculator {
         double result = action.resultFor(leftNum, rightNum);
         System.out.println(leftNum + " " + operator + " " + rightNum + " = " + result);
     }
+    // added new signature for test
+    public double calculate ( double a, double b, String operation) throws CaseOfOperationUnknown {
+        action = getOperationFor(operation);
+        double result = action.resultFor(a, b);
+        System.out.println(a + " " + operation + " " + b + " = " + result);
+        return result;
+    }
 
     public void checkUserInput() throws CaseOfFalseOperands, CaseOfUnexpectedInput {
         Scanner scanner = new Scanner(System.in);

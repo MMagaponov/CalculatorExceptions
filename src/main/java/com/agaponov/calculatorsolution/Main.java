@@ -16,10 +16,11 @@ public class Main {
         } catch (BadOperandException e) {
             System.out.println(e.getMessage());
         } catch (UnexpectedInput e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.getMessage()); // here was Max
         } catch (UnknownOperation e) {
             System.out.println(e.getMessage());
         }
 
     }
 }
+

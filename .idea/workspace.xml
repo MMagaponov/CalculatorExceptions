@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ed53312-2662-4277-9ca4-06dd2d32e497" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/UnexpectedCases/BadOperandException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/UnexpectedCases/UnexpectedInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/UnexpectedCases/UnknownOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/BinaryOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/BinaryOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/MathLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/MathLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/MathPow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/MathPow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/Plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Plus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/SquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/UnexpectedCases/CaseOfFalseOperands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/UnexpectedCases/CaseOfOperationUnknown.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Agaponov/CalculatorSolution/UnexpectedCases/CaseOfUnexpectedInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Java/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Java/CalculatorTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="8ed53312-2662-4277-9ca4-06dd2d32e497" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Division.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Division.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Division.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="64">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -62,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
@@ -195,7 +176,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="708" />
@@ -706,7 +687,7 @@
       <workItem from="1522834102774" duration="1999000" />
       <workItem from="1523802997198" duration="599000" />
       <workItem from="1523803769446" duration="14000" />
-      <workItem from="1526058517975" duration="257000" />
+      <workItem from="1526058517975" duration="686000" />
     </task>
     <servers />
   </component>
@@ -725,10 +706,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37834000" />
+    <option name="totallyTimeSpent" value="38263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="708" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="708" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -740,10 +721,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32826087" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4936034" visible="true" weight="0.32242227" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4936034" visible="true" weight="0.32242227" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28594506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28594506" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1085,17 +1066,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Division.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agaponov/calculatorsolution/Division.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>

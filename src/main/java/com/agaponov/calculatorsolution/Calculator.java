@@ -1,8 +1,8 @@
-package com.Agaponov.CalculatorSolution;
+package com.agaponov.calculatorsolution;
 
-import com.Agaponov.CalculatorSolution.UnexpectedCases.CaseOfUnexpectedInput;
-import com.Agaponov.CalculatorSolution.UnexpectedCases.CaseOfOperationUnknown;
-import com.Agaponov.CalculatorSolution.UnexpectedCases.CaseOfFalseOperands;
+import com.agaponov.calculatorsolution.UnexpectedCases.UnexpectedInput;
+import com.agaponov.calculatorsolution.UnexpectedCases.UnknownOperation;
+import com.agaponov.calculatorsolution.UnexpectedCases.BadOperandException;
 
 import java.util.Scanner;
 
@@ -15,20 +15,20 @@ public class Calculator {
     private BinaryOperation action;
 
 
-    public void calculate() throws CaseOfOperationUnknown {
+    public void calculate() throws UnknownOperation {
         action = getOperationFor(operator);
         double result = action.resultFor(leftNum, rightNum);
         System.out.println(leftNum + " " + operator + " " + rightNum + " = " + result);
     }
     // added new signature for test
-    public double calculate ( double a, double b, String operation) throws CaseOfOperationUnknown {
+    public double calculate ( double a, double b, String operation) throws UnknownOperation {
         action = getOperationFor(operation);
         double result = action.resultFor(a, b);
         System.out.println(a + " " + operation + " " + b + " = " + result);
         return result;
     }
 
-    public void checkUserInput() throws CaseOfFalseOperands, CaseOfUnexpectedInput {
+    public void checkUserInput() throws BadOperandException, UnexpectedInput {
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
         String[] calcPos = inputString.split(" ");
@@ -37,14 +37,14 @@ public class Calculator {
                 leftNum = parseDouble(calcPos[0]);
                 rightNum = parseDouble(calcPos[2]);
             } else {
-                throw new CaseOfFalseOperands();
+                throw new BadOperandException();
             }
             operator = calcPos[1];
-        } else throw new CaseOfUnexpectedInput();
+        } else throw new UnexpectedInput();
     }
 
 
-    private BinaryOperation getOperationFor(String operator) throws CaseOfOperationUnknown {
+    private BinaryOperation getOperationFor(String operator) throws UnknownOperation {
         if ("*".equals(operator)) {
             return new Multiplication();
         } else if ("-".equals(operator)) {
@@ -59,7 +59,7 @@ public class Calculator {
             return new MathPow();
         } else if ("sqrt".equals(operator)) {
             return new SquareRoot();
-        } else throw new CaseOfOperationUnknown();
+        } else throw new UnknownOperation();
     }
 
 

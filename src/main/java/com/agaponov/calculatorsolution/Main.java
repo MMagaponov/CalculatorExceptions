@@ -1,8 +1,8 @@
-package com.Agaponov.CalculatorSolution;
+package com.agaponov.calculatorsolution;
 
-import com.Agaponov.CalculatorSolution.UnexpectedCases.CaseOfUnexpectedInput;
-import com.Agaponov.CalculatorSolution.UnexpectedCases.CaseOfOperationUnknown;
-import com.Agaponov.CalculatorSolution.UnexpectedCases.CaseOfFalseOperands;
+import com.agaponov.calculatorsolution.UnexpectedCases.UnexpectedInput;
+import com.agaponov.calculatorsolution.UnexpectedCases.UnknownOperation;
+import com.agaponov.calculatorsolution.UnexpectedCases.BadOperandException;
 
 
 public class Main {
@@ -13,11 +13,11 @@ public class Main {
         try {
             calculator.checkUserInput();
             calculator.calculate();
-        } catch (CaseOfFalseOperands e) {
+        } catch (BadOperandException e) {
             System.out.println(e.getMessage());
-        } catch (CaseOfUnexpectedInput e) {
+        } catch (UnexpectedInput e) {
             System.out.println(e.getMessage());
-        } catch (CaseOfOperationUnknown e) {
+        } catch (UnknownOperation e) {
             System.out.println(e.getMessage());
         }
 

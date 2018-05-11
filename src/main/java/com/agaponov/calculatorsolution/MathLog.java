@@ -1,4 +1,4 @@
-package com.Agaponov.CalculatorSolution;
+package com.agaponov.calculatorsolution;
 
 public class MathLog implements BinaryOperation {
 

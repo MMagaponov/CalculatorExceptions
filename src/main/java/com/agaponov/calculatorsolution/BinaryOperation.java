@@ -1,4 +1,4 @@
-package com.Agaponov.CalculatorSolution;
+package com.agaponov.calculatorsolution;
 
 /**
  * Интерфейс описывающий операцию над двумя операндами

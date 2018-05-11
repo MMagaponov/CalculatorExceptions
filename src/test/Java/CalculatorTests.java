@@ -1,5 +1,5 @@
-import com.Agaponov.CalculatorSolution.Calculator;
-import com.Agaponov.CalculatorSolution.UnexpectedCases.CaseOfOperationUnknown;
+import com.agaponov.calculatorsolution.Calculator;
+import com.agaponov.calculatorsolution.UnexpectedCases.UnknownOperation;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -22,7 +22,7 @@ public class CalculatorTests {
     }
 
     @Test
-    public void shouldAddTwoPositiveNumbers() throws CaseOfOperationUnknown {
+    public void shouldAddTwoPositiveNumbers() throws UnknownOperation {
         double a = 100;
         double b = 500;
         String addition = "+";
@@ -33,12 +33,12 @@ public class CalculatorTests {
     }
 
     @Test
-    public void shouldThrowExceptionIfOperationIsWrong() throws CaseOfOperationUnknown {
+    public void shouldThrowExceptionIfOperationIsWrong() throws UnknownOperation {
         double a = 100;
         double b = 500;
         final String operation = "bla";
 
-        assertThatThrownBy(() -> calculator.calculate(a,b,operation)).isInstanceOf(CaseOfOperationUnknown.class);
+        assertThatThrownBy(() -> calculator.calculate(a,b,operation)).isInstanceOf(UnknownOperation.class);
 
 
     }
